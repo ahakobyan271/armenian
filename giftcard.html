@@ -434,7 +434,7 @@
 
 
 
-<h2 class="heading">Gift Card will be delivered to Her by email on your mentioned date!</h2>
+<h2 class="heading">Նա կստանա Ձեր կողմից ուղարկված Նվեր քարտը ձեր նշած օրը էլ. փոստով, օրինակը՝ վերևում:</h2>
 
 <!-- START HERE -->
 
@@ -458,17 +458,17 @@
 
 
         <fieldset class="pure-group">
-            <label for="sender">From: </label>
+            <label for="sender">Ուղարկող </label>
             <input id="sender" name="sender" required placeholder="  " />
         </fieldset>
 
         <fieldset class="pure-group">
-            <label for="sender phone">Your Phone Number: </label>
+            <label for="sender phone">Ձեր հեռախոսահամարը </label>
             <input id="sender phone" name="sender phone" required placeholder="+374  " />
         </fieldset>
 
         <fieldset class="pure-group">
-            <label for="sender email">Your Email Address:</label>
+            <label for="sender email">Ձեր էլ. հասցեն</label>
             <input id="sender email" name="sender email" type="email" value="" required placeholder=" " />
             <span class="email-invalid" style="display:none">
                 Must be a valid email address</span>
@@ -477,14 +477,14 @@
 
 
         <fieldset class="pure-group">
-            <label for="recipient">To: </label>
+            <label for="recipient">Ստացող </label>
             <input id="recipient" name="recipient" required placeholder="  " />
         </fieldset>
 
 
 
         <fieldset class="pure-group">
-            <label for="recipient email">Her Email Address:</label>
+            <label for="recipient email">Նրա էլ. հասցեն</label>
             <input id="recipient email" name="recipient email" type="email" value="" required placeholder=" " />
             <span class="email-invalid" style="display:none">
                 Must be a valid email address</span>
@@ -495,7 +495,7 @@
 
 
         <fieldset class="pure-group">
-            <label for="sum">Sum: </label>
+            <label for="sum">Գումարի չափը </label>
             <input id="sum" name="sum" required placeholder="" />
         </fieldset>
 
@@ -505,7 +505,7 @@
         </fieldset>
 
         <fieldset class="pure-group">
-            <label for="message">Message: </label>
+            <label for="message">Մաղթանք </label>
             <textarea id="message" name="message" placeholder=""></textarea>
         </fieldset>
 
@@ -514,11 +514,20 @@
 
 
         <fieldset class="pure-group">
-            <label for="delivery date">Delivery date: </label>
+            <label for="delivery date">Ուղարկման ամսաթիվը</label>
             <input id="delivery date" name="delivery date" required placeholder="Sep. 15 2020 "></input>
         </fieldset>
 
+        <fieldset class="pure-group">
+            <label for="Payment">Վճարման տարբերակ</label>
+            <select id="payment method" name="payment method" required>
+                <option value="Քարտային փոխանցում">Քարտային փոխանցում</option>
+                <option value="Telcell">Telcell</option>
+                <option value="Idram">Idram </option>
 
+
+            </select>
+        </fieldset>
 
 
 
@@ -528,13 +537,13 @@
 
 
         <button id="submitpromo" class="">
-            Submit</button>
+            Հաստատել</button>
     </div>
 
     <!-- Customise the Thankyou Message People See when they submit the form: -->
     <div class="thankyou_message" style="display:none;">
-        <h2 class="heading"><em>Thanks</em> for using our service!
-            We will get back to you soon with payment method information!</h2>
+        <h2 class="heading">Շնորհակալություն մեր ծառայությունից օգտվելու համար!
+            Մենք կապ կհաստատենք 1 աշխ. օրվա ընթացքում վճարումը ընդունելու համար!</h2>
     </div>
 
 </form>
