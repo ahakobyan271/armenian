@@ -122,7 +122,7 @@ function downloadimage() {
 
     fabric.Image.fromURL(src = "image/watermark.png", img => {
 
-        img.scale(1.5).set({ top: 150, left: 230, price: 0, name: "watermark" });
+        img.scale(1.5).set({ top: -150, left: 230, price: 0, name: "watermark" });
         canvas.add(img);
 
 

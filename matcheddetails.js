@@ -1,11 +1,11 @@
 var readytowear = [
     {
-        name: "Sunset. Նախատեսված է 1 ականջի համար",
+        name: "Sunrise. Նախատեսված է 1 ականջի համար",
         searchname: "argishti",
-        code: "argishti earcuff",
+        code: "argishti",
         photo: "imagegold/argishti.png",
-        price: "10250",
-        material: "Մետաղը՝ արծաթ, ոսկեջրված",
+        price: "9500",
+        material: "Մետաղը՝ արծաթ",
         gif: "image/tutor.gif"
 
     }
