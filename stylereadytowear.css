@@ -75,11 +75,15 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            box-shadow: 4px 10px 20px rgb(99, 98, 98);
+            box-shadow: 1px 3px 10px rgb(99, 98, 98);
             border-radius: 10px 10px;
             padding-top: 10px;
             padding: 0px 10px;
             width: 50%;
+            /*background-image:-webkit-linear-gradient(135deg, rgb(103, 241, 69) 0%, 
+     rgba(207, 243, 46, 0.897) 150%); ;*/
+     background-color:rgb(7, 221, 185) ;
+
            
         }
 
@@ -187,7 +191,7 @@
 
                 .tutorGif{
 
-                    width: 450px;
+                    width: 400px;
                     margin-left: 100px;
                 }
 
