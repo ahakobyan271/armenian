@@ -35,37 +35,44 @@
        margin-bottom: 20px;
         border-radius: 10px;
         align-items: center;
+        flex-direction: column;
         padding: 10px 0px 0px 0px;
          
 
         }
 
-        .readtToWearImg{
+        .readyToWearImg{
 
-            width: 250px;
+            width: 170px;
 
 
         }
-
+        .readyimgwrapper{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 100%;
+        }
 
         .readybtnwrapper{
             display: flex;
-            flex-direction: column;
+            
             align-items: center;
             justify-content: center;
-            margin-left: 10px;
-            width: 400px;
+            width: 100%;
+            
+           
             
         }
 
         .readybtnwrapper>*{
             
-            margin: 10px;
+            margin: 1px;
         }
 
         .alternative-wrapper>*{
             
-            margin: 10px;
+            margin: 5px;
         }
 
 
@@ -75,14 +82,15 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            box-shadow: 1px 3px 10px rgb(99, 98, 98);
-            border-radius: 10px 10px;
+            /*box-shadow: 1px 3px 10px rgb(99, 98, 98);*/
+            border-radius: 3px ;
             padding-top: 10px;
             padding: 0px 10px;
-            width: 50%;
+            width: 100%;
+            border: 1px solid black;
             /*background-image:-webkit-linear-gradient(135deg, rgb(103, 241, 69) 0%, 
      rgba(207, 243, 46, 0.897) 150%); ;*/
-     background-color:rgb(7, 221, 185) ;
+     background-color:transparent;
 
            
         }
@@ -92,8 +100,8 @@
 
         .tutorGif{
 
-            width: 300px;
-            margin-left: 20px;
+            width: 170px;
+           
         }
 
     
@@ -113,9 +121,9 @@
 
             }
 
-            .readtToWearImg{
+            .readyToWearImg{
 
-                width: 450px;
+                width: 400px;
 
 
             }
@@ -123,26 +131,26 @@
 
             .readybtnwrapper{
               
-                margin-left: 50px;
-                width: 400px;
+                
+                width: 98%;
                 
             }
 
             .readybtnwrapper>*{
                 
-                margin: 20px;
+                margin: 5px;
             }
 
             
 
             .tutorGif{
 
-                width: 300px;
-                margin-left: 50px;
+                width: 200px;
+                
             }
             .alternative-wrapper{
             
-                width: 80%;
+                width: 100%;
             }
 
 
@@ -167,7 +175,7 @@
 
                 }
  
-                .readtToWearImg{
+                .readyToWearImg{
 
                     width: 400px;
 
@@ -177,14 +185,14 @@
 
                 .readybtnwrapper{
                     
-                    margin-left: 50px;
-                    width: 400px;
+                    margin-left: 10px;
+                    width: 100%;
                     
                 }
 
                 .readybtnwrapper>*{
                     
-                    margin: 20px;
+                    margin: 5px;
                 }
 
                 
@@ -192,14 +200,14 @@
                 .tutorGif{
 
                     width: 400px;
-                    margin-left: 100px;
+                   
                 }
 
                 .alternative-wrapper>*{
             
-                    margin: 15px;
+                    margin: 5px;
                 }
             
-            
+                
 
     }

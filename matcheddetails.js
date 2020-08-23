@@ -19,11 +19,15 @@ const showready = (readytowear) => {   //display ready to wear model model
     document.getElementById("readyToWearSect").innerHTML = `
      ${readytowear.map(function (search) {
 
-        return `<div class="cellforready" data-search=${search.searchname} >
-         <img data-price=${search.price} class="readtToWearImg"  src="${search.photo}"   >
-         
-         <div class="readybtnwrapper">
-         <div class="alternative-wrapper">
+        return `  <div class="cellforready" data-search=${search.searchname} >
+
+    <div class="readyimgwrapper">
+         <img data-price=${search.price} class="readyToWearImg"  src="${search.photo}"   >
+         <img  class="tutorGif"  src="${search.gif}"   >
+    </div>
+<div class="readybtnwrapper">
+
+     <div class="alternative-wrapper">
          <p class="price">${search.name}</p>
          <p class="price">${search.material}</p>
          <p class="price"  >Արժեքը՝ ${search.price} դրամ  </p>
@@ -32,22 +36,22 @@ const showready = (readytowear) => {   //display ready to wear model model
          data-priceready=${search.price}
          id="buyBTN">Գնել</a>
 
-         </div>
+     </div>
          <h2>Կամ</h2>
 
-         <div class="alternative-wrapper">
+      <div class="alternative-wrapper">
 
          <p class="price""> ստեղծեք ձեր տարբերակը՝ ընտրելով Մասնիկներ</p>
          <button  class="calltodesign"  id="detailfilterbtn" data-search=${search.searchname}>Մասնիկներ</button>
-         <p class="price">հետո հավաքելով մոդելը Կտավի վրա ինչպես աջ կողմի օրինակում </p>
+         <p class="price">հետո հավաքելով մոդելը Կտավի վրա. </p>
          <a href="newindex.html" class="calltodesign" id="calltodesignlink">Կտավ</a>        
-          </div>
+      </div>
 
  </div>   
 
-         <img  class="tutorGif"  src="${search.gif}"   >
+        
          
-     </div>
+           </div>
      
      
      `
