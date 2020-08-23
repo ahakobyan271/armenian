@@ -1,0 +1,198 @@
+
+    #readyToWearSect-wrapper{
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+
+    #readyToWearSect{
+  
+        display: flex;
+
+        overflow-x:auto;
+        justify-content:flex-start;
+        width: 100%;
+       
+           
+          
+        }
+
+        #detailfilterbtn{
+            border: none;
+        } 
+        .cellforready{
+
+           display: flex;
+        /* border: 1px solid white;*/
+        width:900px;
+        margin-top: 20px;
+        margin-left:10px ;
+        margin-right:10px ;
+        box-shadow: 4px 10px 20px rgb(99, 98, 98);
+       margin-bottom: 20px;
+        border-radius: 10px;
+        align-items: center;
+        padding: 10px 0px 0px 0px;
+         
+
+        }
+
+        .readtToWearImg{
+
+            width: 250px;
+
+
+        }
+
+
+        .readybtnwrapper{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-left: 10px;
+            width: 400px;
+            
+        }
+
+        .readybtnwrapper>*{
+            
+            margin: 10px;
+        }
+
+        .alternative-wrapper>*{
+            
+            margin: 10px;
+        }
+
+
+
+        .alternative-wrapper{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 4px 10px 20px rgb(99, 98, 98);
+            border-radius: 10px 10px;
+            padding-top: 10px;
+            padding: 0px 10px;
+            
+           
+        }
+
+
+        
+
+        .tutorGif{
+
+            width: 300px;
+            margin-left: 20px;
+        }
+
+    
+
+
+    @media only screen and (min-width: 700px){
+       
+            .cellforready{
+
+              
+            margin-top: 20px;
+            margin-left:10px ;
+            margin-right:10px ;
+           margin-bottom: 20px;
+           width: 900px;
+             
+
+            }
+
+            .readtToWearImg{
+
+                width: 200px;
+
+
+            }
+
+
+            .readybtnwrapper{
+              
+                margin-left: 50px;
+                width: 400px;
+                
+            }
+
+            .readybtnwrapper>*{
+                
+                margin: 20px;
+            }
+
+            
+
+            .tutorGif{
+
+                width: 300px;
+                margin-left: 50px;
+            }
+        
+
+
+    }
+
+    @media only screen and (min-width: 1300px){
+
+        
+
+
+            
+                .cellforready{
+                    width: 100%;
+
+                margin-top: 20px;
+                margin-left:10px ;
+                margin-right:10px ;
+               
+               margin-bottom: 20px;
+                
+                
+
+                }
+ 
+                .readtToWearImg{
+
+                    width: 400px;
+
+
+                }
+
+
+                .readybtnwrapper{
+                    
+                    margin-left: 50px;
+                    width: 400px;
+                    
+                }
+
+                .readybtnwrapper>*{
+                    
+                    margin: 20px;
+                }
+
+                
+
+                .tutorGif{
+
+                    width: 450px;
+                    margin-left: 100px;
+                }
+
+                .alternative-wrapper>*{
+            
+                    margin: 15px;
+                }
+            
+            
+
+    }

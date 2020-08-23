@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="contact form example">
+  <link rel="shortcut icon" type="image/png" href="image/logo1.png">
+  <title>Submit order</title>
+</head>
+
+<body>
+
+
+
+  <!-- START HERE -->
+  <link rel="stylesheet" href="pure.css">
+  <link rel="stylesheet" href="styleformsubmission.css">
+
+  <img src="" id="ordereditem" alt="">
+  <h2 id="ordereditemprice"></h2>
+
+  <form class="gform pure-form pure-form-stacked" method="POST" data-email="profine.digital@gmail.com"
+    action="https://script.google.com/macros/s/AKfycbzm9VDZcbmN80xgdufz11Pfa-2s0b0fHHBGMrLNNL0eTrxdryew/exec">
+
+
+    <!-- change the form action to your script url -->
+
+    <div class="form-elements">
+      <fieldset class="pure-group">
+        <label for="promo">Պրոմո կոդ </label>
+        <input id="promo" name="promo" placeholder="  " />
+      </fieldset>
+
+
+
+      <fieldset class="pure-group">
+        <label for="name">Անուն, ազգանուն </label>
+        <input id="name" name="name" required placeholder="  " />
+      </fieldset>
+
+
+
+
+
+      <fieldset class="pure-group ">
+        <label for="phone">Հեռախոսահամար </label>
+        <input id="phone" name="phone" required placeholder="+374" />
+      </fieldset>
+
+
+      <fieldset class="pure-group">
+        <label for="address">Հասցե </label>
+        <input id="address" name="address" placeholder=" "></input>
+      </fieldset>
+
+
+      <fieldset class="pure-group">
+        <label for="message">Message </label>
+        <textarea id="message" name="message" rows="3" placeholder=" "></textarea>
+      </fieldset>
+
+
+
+      <fieldset class="pure-group">
+        <label for="email">Էլ. հասցե</label>
+        <input id="email" name="email" type="email" value="" required placeholder=" " />
+        <span class="email-invalid" style="display:none">
+          Must be a valid email address</span>
+      </fieldset>
+
+      <fieldset class="pure-group hidden">
+        <label for="price">price: </label>
+        <input id="price" name="price" placeholder="price" />
+      </fieldset>
+
+      <fieldset class="pure-group hidden">
+        <label for="price without promo discount">price without promo discount: </label>
+        <input id="price without promo discount" name="price without promo discount"
+          placeholder="price without promo discount" />
+      </fieldset>
+
+      <fieldset class="pure-group hidden">
+        <label for="idner">idner: </label>
+        <input id="idner" name="idner" placeholder="idner" />
+      </fieldset>
+
+      <fieldset class="pure-group hidden">
+        <label for="name">image: </label>
+        <input id="image" name="image" placeholder="What your Mom calls you" />
+      </fieldset>
+
+      <fieldset class="pure-group">
+        <label for="Payment">Վճարման տարբերակ</label>
+        <select id="payment method" name="payment method" required>
+          <option value="Քարտային փոխանցում">Քարտային փոխանցում</option>
+          <option value="Telcell">Telcell</option>
+          <option value="Idram">Idram </option>
+
+
+        </select>
+      </fieldset>
+
+
+
+
+      <button>
+        Հաստատել պատվերը</button>
+    </div>
+
+    <!-- Customise the Thankyou Message People See when they submit the form: -->
+    <div class="thankyou_message" style="display:none;">
+      <h2>Շնորհակալություն մեր ծառայությունից օգտվելու համար!
+        Մենք կապ կհաստատենք 1 աշխ. օրվա ընթացքում վճարումը ընդունելու համար!</h2>
+    </div>
+
+  </form>
+
+  <!-- Submit the Form to Google Using "AJAX" -->
+  <script data-cfasync="false" type="text/javascript" src="order-submission-handler.js"></script>
+
+
+  <!-- END -->
+
+</body>
+
+</html>
