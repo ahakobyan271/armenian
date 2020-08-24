@@ -122,7 +122,7 @@ function downloadimage() {
 
     fabric.Image.fromURL(src = "image/watermark.png", img => {
 
-        img.scale(1.5).set({ top: -150, left: 230, price: 0, name: "watermark" });
+        img.scale(1.5).set({ top: 150, left: 230, price: 0, name: "watermark" });
         canvas.add(img);
 
 
@@ -208,7 +208,7 @@ canvas.on('object:added', function (ev) {
     }
     else {
         ev.target.scale(0.5).set({
-            top: 150, left: 230,
+            top: 0, left: 0,
             lockScalingX: true,                     /*lockscaling of single item*/
             lockScalingY: true
 

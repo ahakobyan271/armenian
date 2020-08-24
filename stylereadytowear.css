@@ -21,6 +21,12 @@
           
         }
 
+        .kam{
+
+            font-size: 1rem;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
         #detailfilterbtn{
             border: none;
         } 
@@ -102,7 +108,7 @@
 
         .tutorGif{
 
-            width: 170px;
+            width: 150px;
            
         }
 
@@ -147,7 +153,7 @@
 
             .tutorGif{
 
-                width: 200px;
+                width: 350px;
                 
             }
             .alternative-wrapper{
@@ -155,13 +161,22 @@
                 width: 100%;
             }
 
+            .kam{
+
+            font-size: 1.3rem;
+            
+        }
 
     }
 
     @media only screen and (min-width: 1300px){
 
         
+        .kam{
 
+            font-size: 1.6rem;
+            
+        }
 
             
                 .cellforready{
@@ -201,7 +216,7 @@
 
                 .tutorGif{
 
-                    width: 400px;
+                    width: 300px;
                    
                 }
 

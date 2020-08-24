@@ -6,7 +6,7 @@ var readytowear = [
         photo: "imagegold/argishti.png",
         price: "9500",
         material: "Մետաղը՝ արծաթ",
-        gif: "image/tutor.gif"
+        gif: "imagegold/tutor2.gif"
 
     }
 
@@ -28,22 +28,23 @@ const showready = (readytowear) => {   //display ready to wear model model
 <div class="readybtnwrapper">
 
      <div class="alternative-wrapper">
+     <a href="ready-order-checkout.html" class="calltodesign" data-itemcode=${search.code} data-photo=${search.photo} 
+     data-priceready=${search.price}
+     id="buyBTN">Գնել</a>
          <p class="price">${search.name}</p>
          <p class="price">${search.material}</p>
          <p class="price"  >Արժեքը՝ ${search.price} դրամ  </p>
          
-         <a href="ready-order-checkout.html" class="calltodesign" data-itemcode=${search.code} data-photo=${search.photo} 
-         data-priceready=${search.price}
-         id="buyBTN">Գնել</a>
+        
 
      </div>
-         <h2>Կամ</h2>
+         <h2 class="kam">Կամ</h2>
 
       <div class="alternative-wrapper">
 
          <p class="price""> ստեղծեք ձեր տարբերակը՝ ընտրելով Մասնիկներ</p>
          <button  class="calltodesign"  id="detailfilterbtn" data-search=${search.searchname}>Մասնիկներ</button>
-         <p class="price">հետո հավաքելով մոդելը Կտավի վրա. </p>
+         <p class="price">հետո հավաքելով մոդելը Կտավի վրա և փոխելով արժեքը. </p>
          <a href="newindex.html" class="calltodesign" id="calltodesignlink">Կտավ</a>        
       </div>
 
@@ -281,6 +282,12 @@ function translate() {   // translate material type in browser
             mats[i].innerHTML = "Մետաղը՝ արծաթ, ոսկեջրված "
             //console.log("hey")
         }
+        else if (mats[i].innerHTML === "Mannequin") {
+            mats[i].innerHTML = "Մանեկեն"
+            //console.log("hey")
+        }
+
+
         else {
             mats[i].innerHTML = "Մետաղը՝ արծաթ"
 

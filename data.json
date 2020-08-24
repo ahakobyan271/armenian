@@ -21,7 +21,7 @@
         "id": "5",
         "name": "small",
         "price": 8,
-        "weight": 0.5,
+        "weight": 0.3,
         "material": "925 silver",
         "plating": 1,
         "photo": "image/soli.png"
@@ -30,7 +30,7 @@
         "id": "6",
         "name": "small",
         "price": 8,
-        "weight": 0.5,
+        "weight": 0.3,
         "material": "Gold plated 925 silver",
         "plating": 1.1,
         "photo": "imagegold/soli.png"
@@ -463,7 +463,7 @@
         "id": "60",
         "name": "chainearcuff, drop",
         "price": 5,
-        "weight": 0.5,
+        "weight": 0.4,
         "material": "Gold plated 925 silver",
         "plating": 1.1,
         "photo": "imagegold/chainshort.png",
@@ -473,7 +473,7 @@
         "id": "61",
         "name": "chainearcuff, drop",
         "price": 5,
-        "weight": 0.5,
+        "weight": 0.4,
         "material": "925 silver",
         "plating": 1,
         "photo": "image/chainshort.png",
@@ -1281,7 +1281,7 @@
         "id": "164",
         "name": "small detail pearls",
         "price": 5,
-        "weight": 1.5,
+        "weight": 1.1,
         "material": "Gold plated 925 silver",
         "plating": 1.1,
         "photo": "imagegold/konpearl.png"
@@ -1290,7 +1290,7 @@
         "id": "165",
         "name": "small detail pearls",
         "price": 5,
-        "weight": 1.5,
+        "weight": 1.1,
         "material": "925 silver",
         "plating": 1,
         "photo": "image/konpearl.png"
@@ -1859,7 +1859,7 @@
         "id": "228",
         "name": "small",
         "price": 10,
-        "weight": 1.5,
+        "weight": 1.25,
         "material": "Gold plated 925 silver",
         "plating": 1.1,
         "photo": "imagegold/emalcircle.png"
@@ -1868,7 +1868,7 @@
         "id": "229",
         "name": "small",
         "price": 9,
-        "weight": 1.5,
+        "weight": 1.25,
         "material": "925 silver",
         "plating": 1,
         "photo": "image/emalcircle.png"
